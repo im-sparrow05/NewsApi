@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     const getNews = async () => {
       try {
-        const tempNews = await axios.get('http://localhost:4000/api/v1/news');
+        const tempNews = await axios.get('https://newsapi-lujd.onrender.com/api/v1/news');
         setNews(tempNews.data);
       } catch (err) {
         setError('Failed to fetch news');
