@@ -23,7 +23,7 @@ You don't need backend server host Locally, as it allready hosted on render
 Clone the project
 
 ```bash
-  git@github.com:im-sparrow05/NewsApi.git
+  git clone git@github.com:im-sparrow05/NewsApi.git
 ```
 
 Go to the project frontend directory 
